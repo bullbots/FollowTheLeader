@@ -1,0 +1,115 @@
+{
+  "coordinate_system": "FRC Blue Alliance (origin at blue wall corner scoring table side, +X toward red, +Y toward audience, +Z up, meters)",
+  "field_length_meters": 16.5417,
+  "field_width_meters": 8.0137,
+  "trench_zones": [
+    {
+      "name": "blue_scoring_table",
+      "index": 0,
+      "structure_bounds": {
+        "min_x": 3.79195,
+        "min_y": 0.6387100000000001,
+        "max_x": 5.459949999999999,
+        "max_y": 1.83271,
+        "center_x": 4.62595,
+        "center_y": 1.23571,
+        "width": 1.6679999999999997,
+        "depth": 1.194,
+        "height": 1.022
+      },
+      "passable_opening": {
+        "min_x": 3.9864499999999996,
+        "min_y": 0.6387100000000001,
+        "max_x": 5.2654499999999995,
+        "max_y": 1.83271,
+        "center_x": 4.62595,
+        "center_y": 1.23571,
+        "width": 1.279,
+        "depth": 1.194,
+        "max_height_meters": 0.5652
+      },
+      "rotation_degrees": 0.0
+    },
+    {
+      "name": "blue_audience",
+      "index": 1,
+      "structure_bounds": {
+        "min_x": 3.79195,
+        "min_y": 6.3435500000000005,
+        "max_x": 5.459949999999999,
+        "max_y": 7.5375499999999995,
+        "center_x": 4.62595,
+        "center_y": 6.94055,
+        "width": 1.6679999999999997,
+        "depth": 1.194,
+        "height": 1.022
+      },
+      "passable_opening": {
+        "min_x": 3.9864499999999996,
+        "min_y": 6.3435500000000005,
+        "max_x": 5.2654499999999995,
+        "max_y": 7.5375499999999995,
+        "center_x": 4.62595,
+        "center_y": 6.94055,
+        "width": 1.279,
+        "depth": 1.194,
+        "max_height_meters": 0.5652
+      },
+      "rotation_degrees": 0.0
+    },
+    {
+      "name": "red_audience",
+      "index": 2,
+      "structure_bounds": {
+        "min_x": 11.08175,
+        "min_y": 6.1809899999999995,
+        "max_x": 12.749749999999999,
+        "max_y": 7.37499,
+        "center_x": 11.91575,
+        "center_y": 6.77799,
+        "width": 1.6679999999999997,
+        "depth": 1.194,
+        "height": 1.022
+      },
+      "passable_opening": {
+        "min_x": 11.27625,
+        "min_y": 6.1809899999999995,
+        "max_x": 12.55525,
+        "max_y": 7.37499,
+        "center_x": 11.91575,
+        "center_y": 6.77799,
+        "width": 1.279,
+        "depth": 1.194,
+        "max_height_meters": 0.5652
+      },
+      "rotation_degrees": 0.0
+    },
+    {
+      "name": "red_scoring_table",
+      "index": 3,
+      "structure_bounds": {
+        "min_x": 11.08175,
+        "min_y": 0.4761500000000001,
+        "max_x": 12.749749999999999,
+        "max_y": 1.67015,
+        "center_x": 11.91575,
+        "center_y": 1.07315,
+        "width": 1.6679999999999997,
+        "depth": 1.194,
+        "height": 1.022
+      },
+      "passable_opening": {
+        "min_x": 11.27625,
+        "min_y": 0.4761500000000001,
+        "max_x": 12.55525,
+        "max_y": 1.67015,
+        "center_x": 11.91575,
+        "center_y": 1.07315,
+        "width": 1.279,
+        "depth": 1.194,
+        "max_height_meters": 0.5652
+      },
+      "rotation_degrees": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "comment": "YAGSL bringup guide: https://docs.yagsl.com/bringing-up-swerve/check-your-motors",
+  "type": "swervedrive",
+  "modules": [
+    "frontleft.json",
+    "frontright.json",
+    "backleft.json",
+    "backright.json"
+  ],
+  "imu": {
+    "type": "pigeon2",
+    "id": 1,
+    "canbus": "Indiana"
+  },
+  "invertedIMU": false,
+  "drivePID": {
+    "p": 0.01,
+    "i": 0,
+    "d": 0,
+    "f": 0
+  },
+  "anglePID": {
+    "p": 0.01,
+    "i": 0,
+    "d": 0,
+    "f": 0
+  },
+  "heading": {
+    "p": 0.4,
+    "i": 0,
+    "d": 0.0
+  }
+}

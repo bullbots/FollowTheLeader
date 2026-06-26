@@ -1,0 +1,26 @@
+{
+  "location": {
+    "front": -11.5,
+    "left": 12
+  },
+  "drive": {
+    "type": "talonfx",
+    "id": 7,
+    "canbus": "Indiana"
+  },
+  "angle": {
+    "type": "talonfx",
+    "id": 8,
+    "canbus": "Indiana"
+  },
+  "encoder": {
+    "type": "cancoder",
+    "id": 7,
+    "canbus": "Indiana"
+  },
+  "inverted": {
+    "drive": false,
+    "angle": false
+  },
+  "absoluteEncoderOffset": 13.10
+}

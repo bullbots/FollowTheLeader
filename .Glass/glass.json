@@ -1,0 +1,44 @@
+{
+  "NetworkTables": {
+    "transitory": {
+      "Shuffleboard": {
+        "open": true
+      },
+      "SmartDashboard": {
+        "Encoders": {
+          "open": true
+        },
+        "open": true,
+        "swerve": {
+          "modules": {
+            "backleft": {
+              "open": true
+            },
+            "backright": {
+              "open": true
+            },
+            "frontleft": {
+              "open": true
+            },
+            "frontright": {
+              "open": true
+            },
+            "open": true
+          },
+          "open": true
+        }
+      }
+    },
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Encoders": "Alerts",
+      "/SmartDashboard/Field": "Field2d"
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "NetworkTables Settings": {
+    "mode": "Client (NT4)"
+  }
+}

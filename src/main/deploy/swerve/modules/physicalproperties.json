@@ -1,0 +1,22 @@
+{
+  "comment": "WCP Swerve X2i (inverted) with X1 drive ratio (12T pinion)",
+  "conversionFactors": {
+    "drive": {
+      "gearRatio": 6.39,
+      "diameter": 4
+    },
+    "angle": {
+      "gearRatio": 12.1
+    }
+  },
+  "optimalVoltage": 12,
+  "currentLimit": {
+    "drive": 40,
+    "angle": 20
+  },
+  "rampRate": {
+    "drive": 0.25,
+    "angle": 0.25
+  },
+  "wheelGripCoefficientOfFriction": 1.19
+}
